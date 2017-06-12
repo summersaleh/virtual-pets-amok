@@ -1,5 +1,8 @@
 package virtualpetsamok;
 
-public class Robotic extends VirtualPets {
 
+public interface Robotic {
+	public void performMaintainence();
+
+	public void statScenarios();
 }

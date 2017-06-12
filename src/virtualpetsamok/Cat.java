@@ -1,5 +1,9 @@
 package virtualpetsamok;
 
-public class Cat extends Organic {
+abstract class Cats extends VirtualPets {
+
+	public Cats(String name, String type) {
+		super(name, type);
+	}
 
 }

@@ -1,5 +1,11 @@
 package virtualpetsamok;
 
-public class Organic extends VirtualPets {
 
+public interface Organic {
+
+	public void feed();
+
+	public void giveWater();
+
+	public void statScenarios();
 }
